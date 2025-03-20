@@ -5,7 +5,7 @@ HEAD:
   log-level: info
   external-controller: :9090
   dns:
-    enable: true
+    enable: false
     listen: 0.0.0.0:1053
     default-nameserver:
     - 223.5.5.5
@@ -41,87 +41,87 @@ HEAD:
 TEST_URL: https://www.gstatic.com/generate_204
 RULESET:
 - - 🛸 PT站
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/PrivateTracker.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/PrivateTracker.list
 - - ✔ ZJU-INTL
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ZJU-INTL.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ZJU-INTL.list
 - - ✔ ZJU
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ZJU.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ZJU.list
 - - 📃 ZJU More Scholar
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ZJU-More-Scholar.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ZJU-More-Scholar.list
 - - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/OpenAi.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/OpenAi.list
 - - 🤖 ChatBot
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/ChatBot.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/ChatBot.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/LocalAreaNetwork.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/LocalAreaNetwork.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/UnBan.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/UnBan.list
 - - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanAD.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/BanAD.list
 - - 🍃 应用净化
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanProgramAD.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/BanProgramAD.list
 - - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyList.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/BanEasyList.list
 - - 🛑 广告拦截
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyListChina.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/BanEasyListChina.list
 - - 🛡️ 隐私防护
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/BanEasyPrivacy.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/BanEasyPrivacy.list
 - - 📢 谷歌FCM
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/GoogleFCM.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/GoogleFCM.list
 - - 📢 谷歌服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Google.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Google.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Adobe.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Adobe.list
 - - Ⓜ️ 微软Bing
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Bing.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Bing.list
 - - Ⓜ️ 微软云盘
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/OneDrive.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/OneDrive.list
 - - Ⓜ️ 微软服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Microsoft.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Microsoft.list
 - - 🍎 苹果服务
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Apple.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Apple.list
 - - 📲 电报消息
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Telegram.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Telegram.list
 - - 🎶 网易音乐
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/NetEaseMusic.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/NetEaseMusic.list
 - - 🎶 Spotify
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Spotify.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Spotify.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Epic.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Epic.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Origin.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Origin.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Sony.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Sony.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Steam.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Steam.list
 - - 🎮 游戏平台
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Nintendo.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Nintendo.list
 - - 📹 油管视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/YouTube.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/YouTube.list
 - - 🎥 奈飞视频
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Netflix.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Netflix.list
 - - 📺 巴哈姆特
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bahamut.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Bahamut.list
 - - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/BilibiliHMT.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/BilibiliHMT.list
 - - 📺 哔哩哔哩
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Ruleset/Bilibili.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Ruleset/Bilibili.list
 - - 🌏 国内媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaMedia.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ChinaMedia.list
 - - 🌍 国外媒体
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyMedia.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ProxyMedia.list
 - - 🚀 节点选择
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ProxyGFWlist.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ProxyGFWlist.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaIp.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ChinaIp.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaDomain.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ChinaDomain.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ChinaCompanyIp.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ChinaCompanyIp.list
 - - 🎯 全球直连
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/Download.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/Download.list
 - - ✔ ZJU
-  - https://raw.githubusercontent.com/SubConv/ZJU-Rule/main/Clash/ZJU-IP.list
+  - https://raw.githubusercontent.com/zjulgc/lgc_zju_rule/main/Clash/ZJU-IP.list
 - - 🎯 全球直连
   - '[]GEOIP,CN'
 - - 🐟 漏网之鱼
